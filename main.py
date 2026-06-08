@@ -23,7 +23,6 @@ try:
                 print("Запускаю обработчик сообщений для всех целевых чатов...")
                 await start_thread(client, needs_groups)
 
-        # Запускаем основную функцию асинхронно
         if __name__ == "__main__":
             asyncio.run(main())
 except Exception as a:
